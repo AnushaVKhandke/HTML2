@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        .header{
+            background-color: blueviolet;
+        }
+
+        .subheader{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <th>Device</th>
+            <th>Brand</th>
+            <th colspan="2">Specifications</th>
+           
+        </tr>
+        <tr>
+            <td rowspan="4">SmartPhone</td>
+            <td rowspan="4">Apple</td>
+            <tr class="subheader">
+                <th>Models</th>
+                
+                <th>Storage</th>
+
+            </tr>
+        
+            <tr>
+            <td>iphone12</td>
+            <td>256GB</td>
+
+            <tr>
+            <td>iphone SE</td>
+            <td>128GB</td>
+            </tr>
+        </tr>
+       
+        <tr>
+            <td>Laptop</td>
+            <td>Hp</td>
+            <td colspan="2">Display1</td>
+            </tr>
+
+            <tr>
+            <td>Laptop</td>
+            <td>Dell</td>
+            <td colspan="2">Display2</td>
+            </tr>
+            
+        </tr>
+        
+    </table>
+</body>
+</html>
